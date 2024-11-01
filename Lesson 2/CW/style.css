@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze&family=Roboto+Slab&family=Sixtyfour+Convergence&display=swap');
+.text-pink{
+    font-size: 22px;
+    background-color: rgb(104, 156, 156);
+    text-align: center;
+    font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#gold{
+    color: gold;
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
