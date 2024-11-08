@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: space-evenly;
+            height: 500px;
+            align-items: center;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+        }
+        .yellow{
+            background-color: yellow;
+            order: -1;
+        }
+        .red{
+            background-color: red;
+            order: 3;
+        }
+        .pink{
+            background-color: pink;
+            order: 0;
+        }
+        .green{
+            background-color: green;
+            order: 2;
+            align-self: flex-start;
+        }
+        .blue{
+            background-color: blue;
+            order: 1;
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+   <div class="flex">
+    <div class="item yellow"><span>1</span></div>
+    <div class="item red"><span>2</span></div>
+    <div class="item pink"><span>3</span></div>
+    <div class="item green"><span>4</span></div>
+    <div class="item blue"><span>5</span></div>
+   </div>
+    
+</body>
+</html>
