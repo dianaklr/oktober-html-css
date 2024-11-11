@@ -1,0 +1,31 @@
+.target {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    transition: 1000ms;
+    border: 2px solid red
+}
+
+.target:hover {
+    width: 400px;
+    height: 400px;
+    background: cornflowerblue;
+    /*transition: 1000ms;*/
+    border-radius: 50%;
+}
+
+/* odd = 2n+1*/
+/* even = 2n*/
+.list > li:nth-child(3n+5) {
+    background: silver;
+}
+
+li:first-child {
+    font-size: 20px;
+}
+
+li:last-child {
+    font-size: 20px;
+}
+
+

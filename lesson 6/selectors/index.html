@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*
+        0 - id
+        0 - class + pseudo class
+        0 - pseudo selector
+        0 - tag
+        */
+        /*1 0 0 2*/
+        #xxx div p {
+            background: silver;
+        }
+
+        /*1 0 0 1*/
+        #xxx p {
+            background: cornflowerblue;
+        }
+
+
+        .target > .child > p {
+            background: yellow;
+        }
+
+        #xxx > div > p {
+            background: #5454D4;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="target" id="xxx">
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, rerum?</p>
+    </div>
+</div>
+
+</body>
+</html>
