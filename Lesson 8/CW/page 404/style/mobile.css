@@ -1,0 +1,28 @@
+@media screen and (max-width: 480px) {
+    .circle-left, .circle-right{
+        display: none;
+    }
+    .info h1{
+        font-size: 110px;
+    }
+    .info h2{
+        font-size: 28px;
+    }
+    .info p{
+    font-size: 18px;
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 17px;
+    }
+    .buttons{
+        width: 100%;
+        padding: 24px 16px 0 16px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .purple-button, .white-button{
+        width: 100%;
+
+    }
+
+}
