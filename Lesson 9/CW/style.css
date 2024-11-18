@@ -1,0 +1,17 @@
+.carousel img{
+    height: 70vh;
+    object-fit: cover;
+}
+.card-title{
+    padding: 50px;
+    text-align: center;
+}
+.cards{
+    display: grid;
+    height: 130vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+
+}
