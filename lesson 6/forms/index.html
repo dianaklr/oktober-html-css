@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+
+    <style>
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+<form action="">
+    <label>
+        <input type="text" placeholder="Username" name="username">
+    </label>
+    <label>
+        <input type="number" placeholder="Age" name="userage">  <!--userage=13-->
+    </label>
+    <label><input type="password" placeholder="Password" name="userpassword"></label> <!--userpassword=asdasd-->
+
+
+    <label>Male
+        <input type="radio" name="gender" value="male">
+    </label>
+
+    <label>Female
+        <input type="radio" name="gender" value="female">
+    </label>
+    <label for="status">
+        Status
+        <input type="checkbox" name="status" id="status">
+    </label>
+
+    <!--<input type="date">-->
+
+    <label for="description">
+        this is description area
+        <textarea name="description" id="description"></textarea>
+    </label>
+
+    <label for="skill">
+        <select name="skill" id="skill">
+            <option value="js">javaScript</option>
+            <option value="html">html/css</option>
+            <option value="java">java 1.8</option>
+        </select>
+
+    </label>
+
+    <button>send</button>
+</form>
+</body>
+</html>
